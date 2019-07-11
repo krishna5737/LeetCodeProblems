@@ -16,7 +16,7 @@ def checkRedundancy(str):
 		if(i==')'):
 			top = stack.pop()
 			flag = True
-			while(top!='('
+			while(top!='('):
 				if(top == '+' or top == '-' or top == '*' or top == '/' ):
 					flag = False
 				top = stack.pop()
